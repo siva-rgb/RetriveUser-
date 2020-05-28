@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfileActivity">
+
+    <LinearLayout
+        android:background="@drawable/gradiant"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profile Details"
+            android:textColor="@color/colorPrimary"
+            android:textSize="30dp"/>
+
+    </LinearLayout>
+
+    <ImageView
+
+        android:id="@+id/profile_Image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="167dp" />
+
+    <TextView
+        android:id="@+id/profile_username"
+        android:layout_centerInParent="true"
+        android:text=" user name"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_width="347dp"
+        android:layout_height="49dp"
+        android:layout_below="@id/profile_Image"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="#11000000"
+        android:gravity=""
+        android:drawableLeft="@drawable/ic_adb_black_24dp"
+        android:ems="10"/>
+
+    <TextView
+        android:id="@+id/profile_userNo"
+        android:layout_centerInParent="true"
+        android:text=" Phone No"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity=" "
+        android:layout_width="347dp"
+        android:layout_height="49dp"
+        android:layout_below="@id/profile_username"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_local_phone_black_24dp"
+        android:ems="10"/>
+
+    <TextView
+        android:id="@+id/profile_password"
+        android:layout_centerInParent="true"
+        android:text=" PassWord"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity=" "
+        android:layout_width="347dp"
+        android:layout_height="49dp"
+        android:layout_below="@id/profile_userNo"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_enhanced_encryption_password"
+        android:ems="10"/>
+
+    <TextView
+        android:id="@+id/profile_email"
+        android:layout_centerInParent="true"
+        android:text=" Email"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity=" "
+        android:layout_width="347dp"
+        android:layout_height="49dp"
+        android:layout_below="@id/profile_password"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_mail_black_24dp"
+        android:ems="10"/>
+
+
+</RelativeLayout>
